@@ -8,7 +8,16 @@
     "48": "img/icon48.png",
     "128": "img/icon128.png"
   },
-  "permissions": ["unlimitedStorage", "notifications", "https://plus.google.com/*"],
+  "permissions": [
+    "unlimitedStorage",
+    "notifications",
+    "https://plus.google.com/*",
+    "https://picasaweb.google.com/data/*",
+    "https://www.google.com/accounts/OAuthAuthorizeToken",
+    "https://www.google.com/accounts/OAuthGetAccessToken",
+    "https://www.google.com/accounts/OAuthGetRequestToken",
+    "tabs"
+  ],
   "background_page": "background.html",
   "browser_action": {
     "default_title": "My Hangouts",

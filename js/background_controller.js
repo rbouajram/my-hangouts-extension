@@ -9,6 +9,7 @@ BackgroundController = function() {
   this.plus = new GooglePlusAPI();
   this.updater = new HangoutUpdater(this);
   this.captureBackend = new CaptureBackend();
+  this.picasaUploader = new CapturePicasaUploader();
   this.UPDATE_INTERVAL = 30000; // Every 30 seconds.
   this.UPDATE_CIRCLES_INTERVAL = 1000 * 60 * 60 + 15000; // Every hour and 15 seconds;
   this.myFollowersMap = {};

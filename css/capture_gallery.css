@@ -1,9 +1,9 @@
 
-body { 
-  background: #fff url(/img/wood-bg.jpg);
+body {
+  background:rgba(0,0,0,0.05);
   font: normal 13px arial,sans-serif;
-  margin: 5px;
-  height: 100%;
+  margin:0;
+  height:100%;
   -webkit-user-select: none;
 }
 
@@ -30,23 +30,20 @@ button[disabled] {
 }
 
 #header { 
-  background: rgba(0,0,0,.75); 
+  background: rgba(34,34,34,1); 
   border: solid rgba(0,0,0,.75); 
   border-width: 1px 1px 0; 
-  border-radius: 3px; 
   box-shadow: 0 1px 1px rgba(255,255,255,.5);
   white-space: nowrap;
 }
 #header h1 {
   font-weight: bold;
   font-size: 30px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
-  color: #999;
-  padding-left: 40px;
+  text-shadow: 0 0 4px rgba(0,0,0,0.83);
+  color: #fff;
   margin: 0 32px;
   height: 60px;
   line-height: 60px;
-  background: url(/img/icon32.png) center left no-repeat;
 }
 
 #header h1 span, #header h1 span  a {

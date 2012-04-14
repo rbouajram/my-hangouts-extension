@@ -252,12 +252,12 @@ pre {
   top: 10px;
   left: 0px;
   background-color: #fff;
-	box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.7);
+  box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.7);
 }
 
 #preview-controls {
   position: absolute;
-  left: 550px;
+  right: 24px;
   margin-top: -45px;
 }
 
@@ -282,7 +282,7 @@ pre {
   background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
   border-radius: 10px;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
 }
 
 #preview-prev, #preview-next, #preview-save {
@@ -328,29 +328,29 @@ pre {
 }
 
 #download-container {
-	color: white;
-	text-align: center;
-	position: absolute;
-	top: 50%;
-	left: 0px;
-	width: 100%;
-	height: 1px;
-	overflow: visible;
-	visibility: visible;
-	display: block
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  overflow: visible;
+  visibility: visible;
+  display: block
 }
 
 #download-content {
-	box-shadow: 0px 1px 100px rgba(0, 0, 0, 0.7);
-	border-radius: 10px;
-	font-family: Verdana, Geneva, Arial, sans-serif;
-	background-color: white;
-	margin-left: -250px;
-	position: absolute;
-	top: -90px;
-	left: 50%;
-	width: 500px;
-	height: 180px;
+  box-shadow: 0px 1px 100px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  background-color: white;
+  margin-left: -250px;
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  width: 500px;
+  height: 180px;
   opacity: 0.9;
   padding: 10px;
   color: #333;
@@ -377,7 +377,7 @@ pre {
   border-radius: 10px;
   color: #fff;
   text-decoration: none;
-	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.7);
 }
 
 #download-container a:hover {
@@ -386,36 +386,36 @@ pre {
 
 /* -- edit dialog -- */
 #edit {
-	height:100%;
-	width:100%;
-	position:absolute;
+  height:100%;
+  width:100%;
+  position:absolute;
   top:0;
   left:0;
   z-index:10; 
-	display:none; 
-	overflow:hidden;
+  display:none; 
+  overflow:hidden;
 }
 #dialog-controls {
-	position:absolute;
-	top:20px;
-	right:40px;
+  position:absolute;
+  top:20px;
+  right:40px;
 }
 #edit-head {
-	background: white;
-	width: 100%;
-	height: 64px;
-	position: absolute;
-	top: 0;
-	border-bottom: 1px solid rgba(0,0,0,0.25);
+  background: white;
+  width: 100%;
+  height: 64px;
+  position: absolute;
+  top: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
 }
 #edit-head h1 {
-	background:url(../img/effects.png) left center no-repeat;
-	color:rgba(0,0,0,0.75);
-	padding:0 48px;
-	margin-left:24px;
-	font:bold 2em Arial, Helvetica, sans-serif;
-	color:rgba(0,0,0,0.8);
-	text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+  background:url(../img/effects.png) left center no-repeat;
+  color:rgba(0,0,0,0.75);
+  padding:0 48px;
+  margin-left:24px;
+  font:bold 2em Arial, Helvetica, sans-serif;
+  color:rgba(0,0,0,0.8);
+  text-shadow:1px 1px 1px rgba(0,0,0,0.5);
 }
 #edit-body { 
   position:absolute;
@@ -426,27 +426,27 @@ pre {
 #canvas-container { position:absolute; top:0; right:0; background:rgba(255,255,255,0.8); }
 
 #fx-container {
-	width:240px;
-	overflow-x:hidden;
-	overflow-y:scroll;
+  width:240px;
+  overflow-x:hidden;
+  overflow-y:scroll;
 }
 #fx-container h2 { 
-	display: block;
-	height: 36px;
-	background: #d5b267;
-	text-transform: uppercase;
-	text-align: center;
-	font: bold 1.4em/2 Arial, sans-serif;
-	color: #7e5b10;
-	text-shadow: 1px 1px 2px rgba(255, 255, 255,0.5);
-	margin: 0;
-	border-bottom: 2px solid #7e5b10;
+  display: block;
+  height: 36px;
+  background: #d5b267;
+  text-transform: uppercase;
+  text-align: center;
+  font: bold 1.4em/2 Arial, sans-serif;
+  color: #7e5b10;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255,0.5);
+  margin: 0;
+  border-bottom: 2px solid #7e5b10;
 }
 .fx-panel {
-	min-height:60px;
-	background-image: -webkit-linear-gradient(top, #f1f1f1 0%, #eeeeee 100%);
-	border:1px solid rgba(0,0,0,0.2);
-	padding:10px;
+  min-height:60px;
+  background-image: -webkit-linear-gradient(top, #f1f1f1 0%, #eeeeee 100%);
+  border:1px solid rgba(0,0,0,0.2);
+  padding:10px;
 }
 .fx-panel:hover {
 
@@ -455,17 +455,17 @@ span.close {visibility:hidden; width:16px; height:16px; background:url(../img/ch
 .fx-panel:hover span.close {visibility:visible;}
 
 .add-effect-btn {
-	text-align: center;
-	display: block;
-	margin:5px 0;
-	padding: 10px;
-	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-	background: #EBEBEB -webkit-linear-gradient(#FEFEFE, #F8F8F8 40%, #E9E9E9);
-	cursor:pointer;
+  text-align: center;
+  display: block;
+  margin:5px 0;
+  padding: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background: #EBEBEB -webkit-linear-gradient(#FEFEFE, #F8F8F8 40%, #E9E9E9);
+  cursor:pointer;
 }
 
 #canvasPreview {
-	position:absolute;
+  position:absolute;
 }
 
 ::-webkit-scrollbar-thumb {
